@@ -76,7 +76,7 @@ function App() {
       <section>
         <button onClick={fetchMoviesHandler}>Fetch Movies</button>
         <div>
-          <button className="my_button">Submit</button>
+          <button className="my_button">Confirm</button>
         </div>
       </section>
       <section>
