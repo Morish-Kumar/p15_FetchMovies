@@ -75,9 +75,7 @@ function App() {
     <React.Fragment>
       <section>
         <button onClick={fetchMoviesHandler}>Fetch Movies</button>
-        <div>
-          <button className="my_button">Confirm</button>
-        </div>
+        
       </section>
       <section>
         {!isLoading && movies.length > 0 && <MoviesList movies={movies} />}
